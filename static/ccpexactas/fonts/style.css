@@ -1,0 +1,133 @@
+@media{
+  .img-rounded{
+    border-radius: 1rem;
+  }
+}
+
+@font-face {
+  font-family: 'Nintendo';
+  src: url("NintendoLabo.ttf");
+}
+.site-title-responsive{
+  font-family: 'Nintendo', sans-serif;
+  font-size: 1rem;
+}
+.site-heading {
+  margin-top: 5rem;
+  margin-bottom: 5rem;
+  text-transform: uppercase;
+  line-height: 1;
+  font-family: 'Nintendo', sans-serif;
+}
+
+.site-heading .site-heading-upper {
+  display: block;
+  font-size: 2rem;
+  font-weight: 800;
+}
+
+.site-heading .site-heading-lower {
+  font-size: 5rem;
+  font-weight: 100;
+  line-height: 4rem;
+}
+
+
+.section-heading {
+  text-transform: uppercase;
+}
+
+.section-heading .section-heading-upper {
+  display: block;
+  font-size: 1rem;
+  font-weight: 800;
+  padding-bottom:.5rem;
+
+}
+
+.section-heading .section-heading-lower {
+  display: block;
+  font-size: 3rem;
+  font-weight: 100;
+}
+
+.transform{
+  align-content: center;
+  justify-content: center;
+  margin-right: 10rem;
+  margin-left: 10rem;
+  padding: 0;
+  width: 75%;
+}
+
+@media (min-width: 992px){
+  .transform-img{
+    width: 50%;
+    transform: scale(2) translate(0, 0);
+    margin: 0;
+    padding: 0;
+    border-radius: 5%;
+
+}}
+
+@media (max-width: 992px) {
+  .transform{
+    width: 100%;
+    margin-right: 0;
+    margin-left: 0;
+  }
+}
+
+
+.m-n2{
+  margin: -2rem -1rem -2rem -2rem;
+}
+
+.ma-n2{
+  margin: -1rem -2rem -1rem -1rem;
+}
+
+
+
+.height-tab{
+  max-height: None;
+}
+@media (min-width: 992px){
+  .height-tab{
+    height: 58vh;
+
+  }
+}
+
+.background-body{
+  background: linear-gradient(0deg, #1B57A6, #ffffff 70%)
+}
+
+.container-text{
+  background-color: white;
+  border-style: solid;
+  border-color: #1B57A6;
+  border-radius: 1rem;
+  color: #1B57A6;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+
+.logo{
+  display: flex;
+  position: absolute;
+  z-index: 999;
+  top: 2%;
+  right: 10%;
+  width: 10rem;
+  height: 10rem;
+  align-items: center;
+  justify-content: center;
+}
+
+@media (max-width: 992px){
+  .logo{
+    display: none;
+  }
+}
