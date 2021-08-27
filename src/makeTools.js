@@ -35,7 +35,7 @@ function readMarkdownsFolder(mdFolder){
 
 function readImagesFolder(mdFolder){
     return fs.readdirSync(mdFolder)
-        .map(file => `../${mdFolder}/${file}`);
+        .map(file => `${mdFolder}/${file}`);
 }
 
 function readCsv(csvPath){
