@@ -17,6 +17,7 @@ jobs:
         uses: cicirello/generate-sitemap@v1
         with:
           base-url-path: https://alemazzeo.github.io/pruebaweb/
+          path-to-root: build
           
       - name: Deploy 🚀
         uses: JamesIves/github-pages-deploy-action@4.1.4
